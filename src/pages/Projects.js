@@ -12,7 +12,9 @@ const Projects = () => {
       <Row className="g-4">
         <Col md={4}>
           <Cards
-            image={"/Assets/Images/seafoodwebsite.png"}
+            image={
+              "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/seafoodwebsite.png"
+            }
             alt={"a preview image"}
             title={"A seafood restaurant website"}
             description={
@@ -24,7 +26,9 @@ const Projects = () => {
         </Col>
         <Col md={4}>
           <Cards
-            image={"Assets/Images/carbuyingsite.png"}
+            image={
+              "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/carbuyingsite.png"
+            }
             alt={"a preview image "}
             style={{ height: "345px" }}
             title={"A car buying site"}
@@ -39,7 +43,9 @@ const Projects = () => {
         </Col>
         <Col md={4}>
           <Cards
-            image={"Assets/Images/newsfetcherAPI.png"}
+            image={
+              "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/newsfetcherAPI.png"
+            }
             alt={"a preview image"}
             style={{ height: "335px" }}
             title={"Newsfetcher API Web App"}

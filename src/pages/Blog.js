@@ -12,7 +12,9 @@ const Blogs = () => {
         <Row className="g-4 justify-content-center">
           <Col md={4}>
             <Blogcards
-              blogimage={"Assets/Images/A computer component.webp"}
+              blogimage={
+                "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/A computer component.webp"
+              }
               alt={"A computer hardware component"}
               style={{ width: "250px" }}
               blogtitle={"High level vs low-level programming languages"}
@@ -26,7 +28,9 @@ const Blogs = () => {
           </Col>
           <Col md={4}>
             <Blogcards
-              blogimage={"Assets/Images/A monitor with some code display.webp"}
+              blogimage={
+                "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/A monitor with some code display.webp"
+              }
               alt={"A monitor with some code display"}
               style={{ width: "250px" }}
               blogtitle={"Programming and its use in web development"}
