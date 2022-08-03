@@ -13,7 +13,7 @@ const Projects = () => {
         <Col md={4}>
           <Cards
             image={
-              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/seafoodwebsite.png"
+              "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/seafoodwebsite.png"
             }
             alt={"a preview image"}
             title={"A seafood restaurant website"}
@@ -27,7 +27,7 @@ const Projects = () => {
         <Col md={4}>
           <Cards
             image={
-              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/carbuyingsite.png"
+              "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/carbuyingsite.png"
             }
             alt={"a preview image "}
             style={{ height: "345px" }}
@@ -44,7 +44,7 @@ const Projects = () => {
         <Col md={4}>
           <Cards
             image={
-              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/newsfetcherAPI.png"
+              "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/newsfetcherAPI.png"
             }
             alt={"a preview image"}
             style={{ height: "335px" }}
