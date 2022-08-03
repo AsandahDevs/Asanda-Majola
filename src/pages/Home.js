@@ -6,8 +6,8 @@ import Col from "react-bootstrap/esm/Col";
 const Home = (props) => {
   return (
     <>
-      <div class="hero-image">
-        <div class="hero-text">
+      <div className="hero-image">
+        <div className="hero-text">
           <h1 style={{ fontSize: "50px" }}>I am Asanda Majola</h1>
           <h3>
             And I'm a <em>Front End Web Developer</em>
