@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/esm/Container";
-import Cards from "../Components/Cards";
+import Cards from "Cards";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
