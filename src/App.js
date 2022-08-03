@@ -16,28 +16,28 @@ function App() {
             element={
               <Home
                 html={
-                  "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/html-1.svg"
+                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/html-1.svg"
                 }
                 css={
-                  "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/css-3.svg"
+                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/css-3.svg"
                 }
                 bootstrap={
-                  "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/bootstrap-5-1.svg"
+                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/bootstrap-5-1.svg"
                 }
                 JavaScript={
-                  "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/logo-javascript.svg"
+                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/logo-javascript.svg"
                 }
                 react={
-                  "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/react-2.svg"
+                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/react-2.svg"
                 }
                 nodejs={
-                  "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/nodejs-1.svg"
+                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/nodejs-1.svg"
                 }
                 git={
-                  "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/git-logo.svg"
+                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/git-logo.svg"
                 }
                 vscode={
-                  "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/visual-studio-code-1.svg"
+                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/visual-studio-code-1.svg"
                 }
               />
             }

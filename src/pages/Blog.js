@@ -13,7 +13,7 @@ const Blogs = () => {
           <Col md={4}>
             <Blogcards
               blogimage={
-                "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/A computer component.webp"
+                "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/A computer component.webp"
               }
               alt={"A computer hardware component"}
               style={{ width: "250px" }}
@@ -29,7 +29,7 @@ const Blogs = () => {
           <Col md={4}>
             <Blogcards
               blogimage={
-                "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/A monitor with some code display.webp"
+                "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/A monitor with some code display.webp"
               }
               alt={"A monitor with some code display"}
               style={{ width: "250px" }}
