@@ -9,7 +9,7 @@ const NoPage = () => {
           <strong>404</strong>
         </h1>
         <p>Page not found !</p>
-        <Link to="https://AsandahDevs.github.io/Asanda-Majola">
+        <Link to="/">
           <p>Back to main page</p>
         </Link>
       </Container>

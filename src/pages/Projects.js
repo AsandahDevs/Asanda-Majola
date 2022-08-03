@@ -13,6 +13,7 @@ const Projects = () => {
         <Col md={4}>
           <Cards
             image={"/Assets/Images/seafoodwebsite.png"}
+            alt={"a preview image"}
             title={"A seafood restaurant website"}
             description={
               "This website was created for the sole purpose of advertising the most popular seafoods dishes served by Mchunu seafoods, the company, for the poeple of the eThekwini region"
@@ -24,6 +25,7 @@ const Projects = () => {
         <Col md={4}>
           <Cards
             image={"Assets/Images/carbuyingsite.png"}
+            alt={"a preview image "}
             style={{ height: "345px" }}
             title={"A car buying site"}
             description={
@@ -38,6 +40,7 @@ const Projects = () => {
         <Col md={4}>
           <Cards
             image={"Assets/Images/newsfetcherAPI.png"}
+            alt={"a preview image"}
             style={{ height: "335px" }}
             title={"Newsfetcher API Web App"}
             description={

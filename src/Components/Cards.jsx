@@ -4,7 +4,12 @@ import Button from "react-bootstrap/Button";
 const Cards = (props) => {
   return (
     <Card bg="dark">
-      <Card.Img variant="top" src={props.image} style={props.style} />
+      <Card.Img
+        variant="top"
+        src={props.image}
+        style={props.style}
+        alt={props.alt}
+      />
       <Card.Body>
         <Card.Title className="text-white text-center">
           {props.title}
