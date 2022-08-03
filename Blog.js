@@ -1,4 +1,4 @@
-import Blogcards from "../Components/Blogcards";
+import Blogcards from "./src/Components/Blogcards";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";

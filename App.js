@@ -1,16 +1,19 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SharedLayout from "./pages/SharedLayout";
-import Projects from "./pages/Projects";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
-import NoPage from "./pages/NoPage";
-import Home from "./pages/Home";
+import SharedLayout from "SharedLayout";
+import Projects from "Projects";
+import Blog from "Blog";
+import Contact from "Contact";
+import NoPage from "NoPage";
+import Home from "Home";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<SharedLayout />}>
+        <Route
+          path="https://AsandahDevs.github.io/Asanda-Majola"
+          element={<SharedLayout />}
+        >
           <Route
             index
             element={
