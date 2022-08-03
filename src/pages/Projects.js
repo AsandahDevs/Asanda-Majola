@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/esm/Container";
-import Cards from "Cards";
+import Cards from "../Components/Cards";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -12,7 +12,7 @@ const Projects = () => {
       <Row className="g-4">
         <Col md={4}>
           <Cards
-            image={"Assets/Images/seafoodwebsite.png"}
+            image={"/Assets/Images/seafoodwebsite.png"}
             title={"A seafood restaurant website"}
             description={
               "This website was created for the sole purpose of advertising the most popular seafoods dishes served by Mchunu seafoods, the company, for the poeple of the eThekwini region"
