@@ -29,7 +29,7 @@ const Blogs = () => {
           <Col md={4}>
             <Blogcards
               blogimage={
-                "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/A_monitor_with_some_code_display.webp"
+                "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/A-monitor-with-some-code-display.webp"
               }
               alt={"A monitor with some code display"}
               style={{ width: "250px" }}
