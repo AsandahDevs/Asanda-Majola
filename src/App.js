@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<SharedLayout />}>
+        <Route path="/Asanda-Majola" element={<SharedLayout />}>
           <Route
             index
             element={

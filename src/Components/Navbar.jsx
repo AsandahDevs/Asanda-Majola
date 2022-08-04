@@ -7,20 +7,20 @@ const NavigationMenu = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand>AM</Navbar.Brand>
+        <Navbar.Brand>AMajola</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/">
+            <Nav.Link as={Link} to="/Asanda-Majola/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/projects">
+            <Nav.Link as={Link} to="projects">
               Projects
             </Nav.Link>
-            <Nav.Link as={Link} to="/blogs">
+            <Nav.Link as={Link} to="blogs">
               Blogs
             </Nav.Link>
-            <Nav.Link as={Link} to="/contact">
+            <Nav.Link as={Link} to="contact">
               Contact
             </Nav.Link>
           </Nav>
