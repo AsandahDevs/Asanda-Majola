@@ -2,6 +2,7 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
+import { Link } from "react-router-dom";
 
 const Home = (props) => {
   return (
@@ -12,9 +13,9 @@ const Home = (props) => {
           <h3>
             And I'm a <em>Front End Web Developer</em>
           </h3>
-          <Button variant="info" href="/contact">
-            Hire me
-          </Button>
+          <Link to="/contact">
+            <Button variant="info">Hire me</Button>
+          </Link>
         </div>
       </div>
       <Container style={{ paddingTop: "15px" }}>
