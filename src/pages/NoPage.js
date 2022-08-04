@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "react-bootstrap/esm/Button";
 import Container from "react-bootstrap/esm/Container";
 
 const NoPage = () => {
@@ -10,7 +11,7 @@ const NoPage = () => {
         </h1>
         <p>Page not found !</p>
         <Link to="/">
-          <p>Back to main page</p>
+          <Button variant="outline-primary">Back to main page</Button>
         </Link>
       </Container>
     </>
