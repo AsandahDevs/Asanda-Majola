@@ -13,3 +13,6 @@ Asanda Majola's personal portfolio website
 * CSS (bootstrap)
 * JavaScript
 * React.js
+
+## Preview 
+![asandahdevs github io_(Galaxy Tab S4)](https://user-images.githubusercontent.com/89397749/182876188-3a760453-d3e1-44ea-aa0d-3111a2dca20a.png)
