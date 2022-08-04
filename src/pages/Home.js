@@ -13,7 +13,7 @@ const Home = (props) => {
           <h3>
             And I'm a <em>Front End Web Developer</em>
           </h3>
-          <Link to="/contact">
+          <Link to="/Asanda-Majola/contact">
             <Button variant="info">Hire me</Button>
           </Link>
         </div>
