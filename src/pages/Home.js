@@ -12,10 +12,7 @@ const Home = (props) => {
           <h3>
             And I'm a <em>Front End Web Developer</em>
           </h3>
-          <Button
-            variant="info"
-            href="https://asandahdevs.github.io/Asanda-Majola/contact"
-          >
+          <Button variant="info" href="/contact">
             Hire me
           </Button>
         </div>
