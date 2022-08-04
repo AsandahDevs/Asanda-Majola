@@ -13,4 +13,4 @@
 
 ## Preview
 
-![asandahdevs github io_(Galaxy Tab S4)](https://user-images.githubusercontent.com/89397749/182932887-64a68d6e-c626-479b-9e23-67a92ab40fe3.png)
+![asandahdevs github io_Asanda-Majola_(iPhone 12 Pro)](https://user-images.githubusercontent.com/89397749/182934047-546d6ad8-1044-4eb9-94cb-37955049da39.png)
