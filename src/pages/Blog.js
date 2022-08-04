@@ -13,7 +13,7 @@ const Blogs = () => {
           <Col md={4}>
             <Blogcards
               blogimage={
-                "https://AsandahDevs.github.io/Asanda-Majola/public/Assets/Images/computerHardwareComponent.webp"
+                "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/computerHardwareComponent.webp"
               }
               alt={"A computer hardware component"}
               style={{ width: "250px" }}
