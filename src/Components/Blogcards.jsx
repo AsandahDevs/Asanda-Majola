@@ -1,5 +1,6 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import { memo } from "react";
 
 const Blogcards = (props) => {
   return (
@@ -25,4 +26,4 @@ const Blogcards = (props) => {
     </Card>
   );
 };
-export default Blogcards;
+export default memo(Blogcards);
