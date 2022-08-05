@@ -14,7 +14,7 @@ const Blogcards = (props) => {
           {props.blogdescription}
         </Card.Text>
         <Button
-          variant="outline-primary"
+          variant="primary"
           className="component-center"
           href={props.blogURL}
           target={"_blank"}

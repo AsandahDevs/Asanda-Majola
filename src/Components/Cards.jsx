@@ -19,7 +19,7 @@ const Cards = (props) => {
           {props.description}
         </Card.Text>
         <Button
-          variant="outline-primary"
+          variant="primary"
           className="component-center"
           href={props.projectLink}
           target={"_blank"}
@@ -29,7 +29,7 @@ const Cards = (props) => {
         </Button>
         <br />
         <Button
-          variant="outline-primary"
+          variant="primary"
           className="component-center"
           href={props.codeLink}
           target={"_blank"}

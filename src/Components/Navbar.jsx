@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const NavigationMenu = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="pink" variant="dark">
       <Container>
         <Navbar.Brand>AMajola</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
