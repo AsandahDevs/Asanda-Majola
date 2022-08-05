@@ -10,3 +10,7 @@
 * CSS (bootstrap)
 * JavaScript
 * React.js
+
+## Preview
+
+![localhost_3000_Asanda-Majola_(Galaxy Tab S4)](https://user-images.githubusercontent.com/89397749/183123468-c7b7aa86-7d6d-45f7-b315-88f828f4491f.png)
