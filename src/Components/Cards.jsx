@@ -4,12 +4,12 @@ import { memo } from "react";
 
 const Cards = (props) => {
   return (
-    <Card bg="dark">
+    <Card bg="dark" style={props.style}>
       <Card.Img
         variant="top"
         src={props.image}
-        style={props.style}
         alt={props.alt}
+        style={props.height}
       />
       <Card.Body>
         <Card.Title className="text-white text-center">
