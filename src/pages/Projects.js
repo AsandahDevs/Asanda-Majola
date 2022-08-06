@@ -9,9 +9,10 @@ const Projects = () => {
       <h1>
         <strong>Projects</strong>
       </h1>
-      <Row className="g-4">
+      <Row className="g-4 ">
         <Col md={4}>
           <Cards
+            style={{ width: "250px" }}
             image={
               "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/seafoodwebsite.png"
             }
@@ -26,11 +27,12 @@ const Projects = () => {
         </Col>
         <Col md={4}>
           <Cards
+            style={{ width: "250px" }}
+            height={{ height: "250px" }}
             image={
               "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/carbuyingsite.png"
             }
             alt={"a preview image "}
-            style={{ height: "345px" }}
             title={"A car buying site"}
             description={
               "A website for car enthusiasts whether you're on a tight budget or simply want to spend big on that latest whip"
@@ -43,11 +45,12 @@ const Projects = () => {
         </Col>
         <Col md={4}>
           <Cards
+            style={{ width: "250px" }}
+            height={{ height: "250px" }}
             image={
               "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/newsfetcherAPI.png"
             }
             alt={"a preview image"}
-            style={{ height: "335px" }}
             title={"Newsfetcher API Web App"}
             description={
               "A web application for keeping up-to-date with the latest and most popular news from the USA and around the world through utilizing New York Times API."
