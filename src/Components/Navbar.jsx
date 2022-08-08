@@ -2,6 +2,10 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
+import { HouseFill } from "react-bootstrap-icons";
+import { FolderFill } from "react-bootstrap-icons";
+import { PenFill } from "react-bootstrap-icons";
+import { PersonFill } from "react-bootstrap-icons";
 
 const NavigationMenu = () => {
   return (
@@ -12,16 +16,16 @@ const NavigationMenu = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link as={NavLink} to="/Asanda-Majola/">
-              Home
+              <HouseFill /> Home
             </Nav.Link>
             <Nav.Link as={NavLink} to="projects">
-              Projects
+              <FolderFill /> Projects
             </Nav.Link>
             <Nav.Link as={NavLink} to="blogs">
-              Blogs
+              <PenFill /> Blogs
             </Nav.Link>
             <Nav.Link as={NavLink} to="contact">
-              Contact
+              <PersonFill /> Contact
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
