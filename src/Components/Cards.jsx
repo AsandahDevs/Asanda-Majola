@@ -4,7 +4,11 @@ import { memo } from "react";
 
 const Cards = (props) => {
   return (
-    <Card bg="dark" style={props.style}>
+    <Card
+      bg="dark"
+      style={props.style}
+      className="animate__animated animate__zoomIn"
+    >
       <Card.Img
         variant="top"
         src={props.image}
