@@ -8,8 +8,8 @@ import { memo } from "react";
 const Home = (props) => {
   return (
     <>
-      <div className="hero-image">
-        <div className="hero-text">
+      <figure className="hero-image">
+        <figcaption className="hero-text">
           <h1 style={{ fontSize: "50px" }}>I am Asanda Majola</h1>
           <h3>
             And I'm a <em>Front End Web Developer</em>
@@ -17,8 +17,8 @@ const Home = (props) => {
           <Link to="/Asanda-Majola/contact">
             <Button variant="info">Hire me</Button>
           </Link>
-        </div>
-      </div>
+        </figcaption>
+      </figure>
       <Container style={{ paddingTop: "15px" }}>
         <section>
           <h2>About me</h2>
