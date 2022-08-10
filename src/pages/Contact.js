@@ -13,8 +13,8 @@ const Contact = () => {
         below channels.<strong>Apologies for any inconveniences.</strong>
       </p>
       <h2>Channels you can connect with me</h2>
-      <Envelope /> noelmajola@gmail.com | <Whatsapp /> 061 987 7031 |{" "}
-      <Telephone /> 061 987 7031
+      Direct email: <Envelope /> noelmajola@gmail.com | Whatsapp: <Whatsapp />{" "}
+      061 987 7031 | Contact number: <Telephone /> 061 987 7031
     </Container>
   );
 };
