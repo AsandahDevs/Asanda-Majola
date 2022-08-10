@@ -10,10 +10,10 @@ const Home = (props) => {
     <>
       <figure className="hero-image">
         <figcaption className="hero-text">
-          <h1 style={{ fontSize: "50px" }}>I am Asanda Majola</h1>
-          <h3>
-            And I'm a <em>Front End Web Developer</em>
-          </h3>
+          <h1 style={{ fontSize: "50px" }}> Asanda Majola</h1>
+          <h2 style={{ fontSize: "25px" }}>
+            <em>Front End Web Developer</em>
+          </h2>
           <Link to="/Asanda-Majola/contact">
             <Button variant="info">Hire me</Button>
           </Link>
