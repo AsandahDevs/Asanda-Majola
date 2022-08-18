@@ -39,3 +39,12 @@ code {
 a.nav-link.active {
   color: hotpink !important;
 }
+
+.anchor-style {
+  text-decoration: none;
+  color: white;
+}
+
+.anchor-style:hover {
+  color: palevioletred;
+}
