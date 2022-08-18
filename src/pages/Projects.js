@@ -14,7 +14,7 @@ const Projects = () => {
           <Cards
             style={{ width: "250px" }}
             image={
-              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/seafoodwebsite.png"
+              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/seafoodwebsite.webp"
             }
             alt={"a preview image"}
             title={"A seafood restaurant website"}
@@ -30,7 +30,7 @@ const Projects = () => {
             style={{ width: "250px" }}
             height={{ height: "250px" }}
             image={
-              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/carbuyingsite.png"
+              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/carbuyingsite.webp"
             }
             alt={"a preview image "}
             title={"A car buying site"}
@@ -48,7 +48,7 @@ const Projects = () => {
             style={{ width: "250px" }}
             height={{ height: "250px" }}
             image={
-              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/newsfetcherAPI.png"
+              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/newsfetcherAPI.webp"
             }
             alt={"a preview image"}
             title={"Newsfetcher API Web App"}
@@ -57,6 +57,24 @@ const Projects = () => {
             }
             projectLink={"https://asandahdevs.github.io/newsFetcher.github.io/"}
             codeLink={"https://github.com/AsandahDevs/newsFetcher.github.io"}
+          />
+        </Col>
+        <Col md={4}>
+          <Cards
+            style={{ width: "250px" }}
+            height={{ height: "250px" }}
+            image={
+              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/starbucksClone.webp"
+            }
+            alt={"a preview image"}
+            title={"A starbucks clone website"}
+            description={
+              "A starbucks clone website that utilizes react.js and react-router for creating a single page appplication"
+            }
+            projectLink={"https://asandahdevs.github.io/starbucks-clone/"}
+            codeLink={
+              "https://github.com/AsandahDevs/starbucks-clone/tree/main"
+            }
           />
         </Col>
       </Row>
