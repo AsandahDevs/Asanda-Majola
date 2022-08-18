@@ -12,16 +12,18 @@ const Footer = () => {
             href="https://github.com/AsandahDevs"
             target="_blank"
             rel="noreferrer"
+            className="anchor-style"
           >
-            <Github />
+            <Github /> Github
           </a>{" "}
           |{" "}
           <a
             href="https://www.linkedin.com/in/asanda-majola-738067186/"
             target="_blank"
             rel="noreferrer"
+            className="anchor-style"
           >
-            <Linkedin />
+            <Linkedin /> Linkedin
           </a>
         </span>
       </footer>
