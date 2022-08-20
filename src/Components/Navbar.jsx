@@ -11,7 +11,15 @@ const NavigationMenu = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="pink" variant="dark">
       <Container>
-        <Navbar.Brand>AMajola</Navbar.Brand>
+        <Navbar.Brand
+          style={{
+            fontFamily: "Tangerine",
+            fontSize: "20px",
+            fontWeight: "bold",
+          }}
+        >
+          AMajola
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
