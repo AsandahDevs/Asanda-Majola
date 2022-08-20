@@ -21,18 +21,17 @@ code {
   background: url(https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/Asanda.webp)
     no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
-  height: 48.75rem;
+  height: 68.75rem;
   position: relative;
 }
 
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: whitesmoke;
+  color: white;
 }
 
 a.nav-link.active {
@@ -46,15 +45,4 @@ a.nav-link.active {
 
 .anchor-style:hover {
   color: palevioletred;
-}
-
-h1,
-h2 {
-  font-family: "Tangerine";
-  font-size: 3rem;
-  text-shadow: 3px 3px 3px palevioletred;
-}
-
-.font-family-Tangerine {
-  font-family: "Tangerine";
 }
