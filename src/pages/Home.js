@@ -10,12 +10,21 @@ const Home = (props) => {
     <>
       <figure className="hero-image">
         <figcaption className="hero-text">
-          <h1 style={{ fontSize: "50px" }}> Asanda Majola</h1>
-          <h2 style={{ fontSize: "25px" }}>
+          <h1> Asanda Majola</h1>
+          <h2>
             <em>Front End Web Developer</em>
           </h2>
           <Link to="/Asanda-Majola/contact">
-            <Button variant="info">Hire me</Button>
+            <Button
+              variant="info"
+              style={{
+                fontFamily: "Tangerine",
+                fontSize: "20px",
+                fontWeight: "bold",
+              }}
+            >
+              Hire me
+            </Button>
           </Link>
         </figcaption>
       </figure>
