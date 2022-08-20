@@ -13,5 +13,5 @@
 
 ## Preview
 
-<img width="100%" alt="porfolio homepage image" src="https://user-images.githubusercontent.com/89397749/185749073-34cb4472-99f5-4fa5-9590-f46ecd76ba89.png">
+![localhost_3000_Asanda-Majola_(Galaxy Tab S4)](https://user-images.githubusercontent.com/89397749/185749979-587aa56a-1b35-48d4-837c-f43240630262.png)
 
