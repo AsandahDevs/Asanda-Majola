@@ -97,6 +97,14 @@ const Home = (props) => {
             </Col>
             <Col md={3}>
               <img
+                src={props.sql}
+                alt="SQL logo"
+                style={{ width: "150px", height: "166px" }}
+              />
+              <figcaption style={{ paddingLeft: "40px" }}>SQL</figcaption>
+            </Col>
+            <Col md={3}>
+              <img
                 src={props.git}
                 alt="Git logo"
                 style={{ width: "150px", height: "166px" }}
