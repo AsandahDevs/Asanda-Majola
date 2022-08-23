@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Asanda-Majola/static/css/main.55dabc2e.css",
+    "main.css": "/Asanda-Majola/static/css/main.feb08f6a.css",
     "main.js": "/Asanda-Majola/static/js/main.dab1c3c5.js",
     "index.html": "/Asanda-Majola/index.html",
-    "main.55dabc2e.css.map": "/Asanda-Majola/static/css/main.55dabc2e.css.map",
+    "main.feb08f6a.css.map": "/Asanda-Majola/static/css/main.feb08f6a.css.map",
     "main.dab1c3c5.js.map": "/Asanda-Majola/static/js/main.dab1c3c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.55dabc2e.css",
+    "static/css/main.feb08f6a.css",
     "static/js/main.dab1c3c5.js"
   ]
 }
