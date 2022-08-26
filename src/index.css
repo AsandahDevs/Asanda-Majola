@@ -55,3 +55,7 @@ h2 {
   font-size: 3rem;
   text-shadow: 4px 4px 4px hotpink;
 }
+
+div.carousel-indicators > button.active {
+  background-color: hotpink;
+}
