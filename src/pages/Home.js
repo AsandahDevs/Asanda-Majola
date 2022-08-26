@@ -4,26 +4,49 @@ import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import { Link } from "react-router-dom";
 import { memo } from "react";
+import { Github } from "react-bootstrap-icons";
+import { Linkedin } from "react-bootstrap-icons";
 
 const Home = (props) => {
   return (
     <>
       <figure className="hero-image">
-        <figcaption className="hero-text">
+        <figcaption className="hero-text animate__animated animate__zoomIn">
           <h1> Asanda Majola</h1>
           <h2>
             <em>Front End Web Developer</em>
           </h2>
-          <Link to="/Asanda-Majola/contact">
+          <span>
+            <a
+              href="https://github.com/AsandahDevs"
+              target="_blank"
+              rel="noreferrer"
+              className="anchor-style"
+            >
+              <Github /> Github
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://www.linkedin.com/in/asanda-majola-738067186/"
+              target="_blank"
+              rel="noreferrer"
+              className="anchor-style"
+            >
+              <Linkedin /> Linkedin
+            </a>
+          </span>
+          <br />
+          <Link to="/Asanda-Majola/projects">
             <Button
-              variant="info"
+              variant="dark"
               style={{
-                fontFamily: "Tangerine",
-                fontSize: "20px",
+                fontFamily: "Roboto",
+                fontSize: "10px",
                 fontWeight: "bold",
+                marginTop: "10px",
               }}
             >
-              Hire me
+              Explore Projects
             </Button>
           </Link>
         </figcaption>
