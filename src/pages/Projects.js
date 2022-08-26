@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/esm/Container";
 import Cards from "../Components/Cards";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Carousel from "react-bootstrap/Carousel";
 
 const Projects = () => {
   return (
@@ -9,10 +8,15 @@ const Projects = () => {
       <h1>
         <strong>Projects</strong>
       </h1>
-      <Row className="g-4 ">
-        <Col md={4}>
+      <Carousel>
+        <Carousel.Item>
           <Cards
-            style={{ width: "250px" }}
+            style={{
+              width: "300px",
+              height: "auto",
+              margin: "auto",
+              marginBottom: "3em",
+            }}
             image={
               "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/seafoodwebsite.webp"
             }
@@ -24,10 +28,15 @@ const Projects = () => {
             projectLink={"https://asandahdevs.github.io/"}
             codeLink={"https://github.com/AsandahDevs/asandahdevs.github.io"}
           />
-        </Col>
-        <Col md={4}>
+        </Carousel.Item>
+        <Carousel.Item>
           <Cards
-            style={{ width: "250px" }}
+            style={{
+              width: "300px",
+              height: "auto",
+              margin: "auto",
+              marginBottom: "3em",
+            }}
             height={{ height: "250px" }}
             image={
               "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/carbuyingsite.webp"
@@ -42,10 +51,15 @@ const Projects = () => {
             }
             codeLink={"https://github.com/AsandahDevs/carBuyingSite.github.io"}
           />
-        </Col>
-        <Col md={4}>
+        </Carousel.Item>
+        <Carousel.Item>
           <Cards
-            style={{ width: "250px" }}
+            style={{
+              width: "300px",
+              height: "auto",
+              margin: "auto",
+              marginBottom: "3em",
+            }}
             height={{ height: "250px" }}
             image={
               "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/newsfetcherAPI.webp"
@@ -58,10 +72,15 @@ const Projects = () => {
             projectLink={"https://asandahdevs.github.io/newsFetcher.github.io/"}
             codeLink={"https://github.com/AsandahDevs/newsFetcher.github.io"}
           />
-        </Col>
-        <Col md={4}>
+        </Carousel.Item>
+        <Carousel.Item>
           <Cards
-            style={{ width: "250px" }}
+            style={{
+              width: "300px",
+              height: "auto",
+              margin: "auto",
+              marginBottom: "3em",
+            }}
             height={{ height: "250px" }}
             image={
               "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/starbucksClone.webp"
@@ -76,8 +95,8 @@ const Projects = () => {
               "https://github.com/AsandahDevs/starbucks-clone/tree/main"
             }
           />
-        </Col>
-      </Row>
+        </Carousel.Item>
+      </Carousel>
     </Container>
   );
 };
