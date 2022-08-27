@@ -9,7 +9,7 @@ import { PersonFill } from "react-bootstrap-icons";
 
 const NavigationMenu = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="pink" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
       <Container>
         <Navbar.Brand
           style={{
