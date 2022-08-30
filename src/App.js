@@ -39,9 +39,6 @@ function App() {
                 git={
                   "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/git-logo.svg"
                 }
-                vscode={
-                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/visual-studio-code-1.svg"
-                }
               />
             }
           />
