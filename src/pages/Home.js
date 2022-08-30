@@ -69,82 +69,83 @@ const Home = (props) => {
         <section>
           <h2>Tools and technologies</h2>
           <br />
-          <Row className="g-4">
-            <Col md={3} className="justify-content-center">
+          <Row className="justify-content-space-around g-4">
+            <Col xs={3} md={4}>
               <img
                 src={props.html}
                 alt="HTML logo"
-                style={{ width: "150px" }}
+                style={{ width: "150px", height: "90px" }}
               />
-              <figcaption style={{ paddingLeft: "50px" }}>HTML 5</figcaption>
+              <figcaption style={{ paddingLeft: "40px" }}>HTML 5</figcaption>
             </Col>
-            <Col md={3}>
-              <img src={props.css} alt="CSS logo" style={{ width: "150px" }} />
-              <figcaption style={{ paddingLeft: "50px" }}>CSS3</figcaption>
+            <Col xs={3} md={4}>
+              <img
+                src={props.css}
+                alt="CSS logo"
+                style={{ width: "150px", height: "90px" }}
+              />
+              <figcaption style={{ paddingLeft: "40px" }}>CSS3</figcaption>
             </Col>
-            <Col md={3}>
+            <Col xs={3} md={4}>
               <img
                 src={props.bootstrap}
                 alt="Bootstrap logo"
-                style={{ width: "150px", height: "166px" }}
+                style={{ width: "160px", height: "90px" }}
               />
               <figcaption style={{ paddingLeft: "40px" }}>
                 Bootstrap 5
               </figcaption>
             </Col>
-            <Col md={3}>
+          </Row>
+          <Row className="justify-content-center g-4 py-3">
+            <Col xs={5} md={4}>
               <img
                 src={props.JavaScript}
                 alt="JavaScript logo"
-                style={{ width: "150px", height: "166px" }}
+                style={{ width: "150px", height: "90px" }}
               />
               <figcaption style={{ paddingLeft: "40px" }}>
                 JavaScript
               </figcaption>
             </Col>
-            <Col md={3}>
+            <Col xs={5} md={4}>
               <img
                 src={props.react}
                 alt="React logo"
-                style={{ width: "150px" }}
+                style={{ width: "150px", height: "90px" }}
               />
               <figcaption style={{ paddingLeft: "40px" }}>React.js</figcaption>
             </Col>
-            <Col md={3}>
-              <img
-                src={props.nodejs}
-                alt="node.js logo"
-                style={{ width: "150px", height: "166px" }}
-              />
-              <figcaption style={{ paddingLeft: "40px" }}>node.js</figcaption>
-            </Col>
-            <Col md={3}>
+          </Row>
+          <Row className="justify-content-center g-4 py-3">
+            <Col xs={5} md={4}>
               <img
                 src={props.sql}
                 alt="SQL logo"
-                style={{ width: "150px", height: "166px" }}
+                style={{ width: "150px", height: "90px" }}
               />
               <figcaption style={{ paddingLeft: "40px" }}>SQL</figcaption>
             </Col>
-            <Col md={3}>
+            <Col xs={5} md={4}>
               <img
                 src={props.git}
                 alt="Git logo"
-                style={{ width: "150px", height: "166px" }}
+                style={{ width: "150px", height: "90px" }}
               />
               <figcaption style={{ paddingLeft: "40px" }}>Git</figcaption>
             </Col>
-            <Col md={3}>
-              <img
-                src={props.vscode}
-                alt="VS code logo"
-                style={{ width: "150px" }}
-              />
-              <figcaption style={{ paddingLeft: "15px" }}>
-                Visual studio code
-              </figcaption>
-            </Col>
           </Row>
+          <figure className="text-center">
+            <img
+              src={props.nodejs}
+              alt="node.js logo"
+              style={{
+                width: "150px",
+                height: "90px",
+              }}
+            />
+            <figcaption>node.js</figcaption>
+          </figure>
         </section>
       </Container>
     </>
