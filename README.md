@@ -13,4 +13,4 @@
 
 ## Preview
 
-![asandahdevs github io_Asanda-Majola_(Galaxy Tab S4)](https://user-images.githubusercontent.com/89397749/187457697-96cba0df-71f0-4f8f-ae1e-cfc48528cfdf.png)
+![asandahdevs github io_Asanda-Majola_(Galaxy Tab S4)](https://user-images.githubusercontent.com/89397749/187794113-a620181d-ebcd-4c21-bd3f-7ac573de0fbb.png)
