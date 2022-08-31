@@ -74,27 +74,25 @@ const Home = (props) => {
               <img
                 src={props.html}
                 alt="HTML logo"
-                style={{ width: "150px", height: "90px" }}
+                style={{ width: "150px", height: "30px" }}
               />
-              <figcaption style={{ paddingLeft: "40px" }}>HTML 5</figcaption>
+              <figcaption style={{ paddingLeft: "55px" }}>HTML</figcaption>
             </Col>
             <Col xs={3} md={4}>
               <img
                 src={props.css}
                 alt="CSS logo"
-                style={{ width: "150px", height: "90px" }}
+                style={{ width: "150px", height: "30px" }}
               />
-              <figcaption style={{ paddingLeft: "40px" }}>CSS3</figcaption>
+              <figcaption style={{ paddingLeft: "55px" }}>CSS</figcaption>
             </Col>
             <Col xs={3} md={4}>
               <img
                 src={props.bootstrap}
                 alt="Bootstrap logo"
-                style={{ width: "160px", height: "90px" }}
+                style={{ width: "160px", height: "30px" }}
               />
-              <figcaption style={{ paddingLeft: "40px" }}>
-                Bootstrap 5
-              </figcaption>
+              <figcaption style={{ paddingLeft: "40px" }}>Bootstrap</figcaption>
             </Col>
           </Row>
           <Row className="justify-content-center g-4 py-3">
@@ -102,7 +100,7 @@ const Home = (props) => {
               <img
                 src={props.JavaScript}
                 alt="JavaScript logo"
-                style={{ width: "150px", height: "90px" }}
+                style={{ width: "150px", height: "30px" }}
               />
               <figcaption style={{ paddingLeft: "40px" }}>
                 JavaScript
@@ -112,7 +110,7 @@ const Home = (props) => {
               <img
                 src={props.react}
                 alt="React logo"
-                style={{ width: "150px", height: "90px" }}
+                style={{ width: "150px", height: "30px" }}
               />
               <figcaption style={{ paddingLeft: "40px" }}>React.js</figcaption>
             </Col>
@@ -122,7 +120,7 @@ const Home = (props) => {
               <img
                 src={props.sql}
                 alt="SQL logo"
-                style={{ width: "150px", height: "90px" }}
+                style={{ width: "150px", height: "30px" }}
               />
               <figcaption style={{ paddingLeft: "40px" }}>SQL</figcaption>
             </Col>
@@ -130,7 +128,7 @@ const Home = (props) => {
               <img
                 src={props.git}
                 alt="Git logo"
-                style={{ width: "150px", height: "90px" }}
+                style={{ width: "150px", height: "30px" }}
               />
               <figcaption style={{ paddingLeft: "40px" }}>Git</figcaption>
             </Col>
@@ -141,7 +139,7 @@ const Home = (props) => {
               alt="node.js logo"
               style={{
                 width: "150px",
-                height: "90px",
+                height: "30px",
               }}
             />
             <figcaption>node.js</figcaption>
