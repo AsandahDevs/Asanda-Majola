@@ -1,5 +1,6 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import { Github, EyeFill } from "react-bootstrap-icons";
 import { memo } from "react";
 
 const Cards = (props) => {
@@ -29,7 +30,7 @@ const Cards = (props) => {
           target={"_blank"}
           style={{ width: "150px" }}
         >
-          Live Project
+          Live Project <EyeFill />
         </Button>
         <br />
         <Button
@@ -39,7 +40,7 @@ const Cards = (props) => {
           target={"_blank"}
           style={{ width: "190px" }}
         >
-          View source code
+          View source code <Github />
         </Button>
       </Card.Body>
     </Card>
