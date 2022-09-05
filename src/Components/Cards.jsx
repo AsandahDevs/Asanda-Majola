@@ -28,7 +28,7 @@ const Cards = (props) => {
           className="component-center"
           href={props.projectLink}
           target={"_blank"}
-          style={{ width: "150px" }}
+          style={{ width: "150px", borderRadius: "3rem" }}
         >
           Live Project <EyeFill />
         </Button>
@@ -38,7 +38,7 @@ const Cards = (props) => {
           className="component-center"
           href={props.codeLink}
           target={"_blank"}
-          style={{ width: "190px" }}
+          style={{ width: "190px", borderRadius: "3rem" }}
         >
           View source code <Github />
         </Button>

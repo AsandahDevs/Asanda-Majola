@@ -22,7 +22,7 @@ const Blogcards = (props) => {
           className="component-center"
           href={props.blogURL}
           target={"_blank"}
-          style={{ width: "150px" }}
+          style={{ width: "150px", borderRadius: "3rem" }}
         >
           View blog
         </Button>
