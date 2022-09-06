@@ -4,7 +4,7 @@ import { Whatsapp } from "react-bootstrap-icons";
 import { Telephone } from "react-bootstrap-icons";
 const Contact = () => {
   return (
-    <Container style={{ paddingTop: "15px" }}>
+    <Container style={{ paddingTop: "15px" }} fluid>
       <h1>Are you interested in working with me ?</h1>
       <p>
         Well, since this website has no backend services connected to it,

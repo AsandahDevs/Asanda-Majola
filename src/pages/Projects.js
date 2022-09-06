@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Projects = () => {
   return (
-    <Container style={{ paddingTop: "15px" }}>
+    <Container style={{ paddingTop: "15px" }} fluid>
       <h1>
         <strong>Projects</strong>
       </h1>

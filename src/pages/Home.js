@@ -51,7 +51,7 @@ const Home = (props) => {
           </Link>
         </figcaption>
       </figure>
-      <Container style={{ paddingTop: "15px" }}>
+      <Container style={{ paddingTop: "15px" }} fluid>
         <section>
           <h2>About me</h2>
           <p>

@@ -10,7 +10,7 @@ import { PersonFill } from "react-bootstrap-icons";
 const NavigationMenu = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="rgba(0,0,255,1.0)" variant="dark">
-      <Container>
+      <Container fluid>
         <Navbar.Brand
           style={{
             fontFamily: "Tangerine",

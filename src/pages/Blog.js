@@ -5,7 +5,7 @@ import Col from "react-bootstrap/esm/Col";
 
 const Blogs = () => {
   return (
-    <Container>
+    <Container fluid>
       <h1>My personal blogs</h1>
       <section>
         <br />
