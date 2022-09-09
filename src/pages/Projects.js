@@ -96,6 +96,27 @@ const Projects = () => {
             }
           />
         </Carousel.Item>
+        <Carousel.Item>
+          <Cards
+            style={{
+              width: "300px",
+              height: "auto",
+              margin: "auto",
+              marginBottom: "3em",
+            }}
+            height={{ height: "250px" }}
+            image={
+              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/Amabele_preview.webp"
+            }
+            alt={"a preview image"}
+            title={"Amabele: An e-commerce website"}
+            description={
+              "An S.P.A ecommerce website for facilitating the promotion and sale of alcoholic beverages built using react.js"
+            }
+            projectLink={"https://asandahdevs.github.io/Amabele/"}
+            codeLink={"https://github.com/AsandahDevs/Amabele/tree/main"}
+          />
+        </Carousel.Item>
       </Carousel>
     </Container>
   );
