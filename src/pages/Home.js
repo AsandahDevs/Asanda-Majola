@@ -6,8 +6,35 @@ import { Link } from "react-router-dom";
 import { memo } from "react";
 import { Github } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
+import { useEffect } from "react";
 
 const Home = (props) => {
+  useEffect(() => {
+    const targetElements = document.querySelectorAll(".icon");
+
+    const options = {
+      root: null,
+      rootMarging: "0px",
+      threshold: 0,
+    };
+
+    const handleIntersection = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add(
+            "animate__animated",
+            "animate__slideInLeft"
+          );
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(handleIntersection, options);
+    targetElements.forEach((targetElement) => {
+      observer.observe(targetElement);
+    });
+  }, []);
+
   return (
     <>
       <figure className="hero-image">
@@ -75,6 +102,7 @@ const Home = (props) => {
                 src={props.html}
                 alt="HTML logo"
                 style={{ width: "150px", height: "30px" }}
+                className="icon"
               />
               <figcaption style={{ paddingLeft: "55px" }}>HTML</figcaption>
             </Col>
@@ -83,6 +111,7 @@ const Home = (props) => {
                 src={props.css}
                 alt="CSS logo"
                 style={{ width: "150px", height: "30px" }}
+                className="icon"
               />
               <figcaption style={{ paddingLeft: "55px" }}>CSS</figcaption>
             </Col>
@@ -91,6 +120,7 @@ const Home = (props) => {
                 src={props.bootstrap}
                 alt="Bootstrap logo"
                 style={{ width: "160px", height: "30px" }}
+                className="icon"
               />
               <figcaption style={{ paddingLeft: "40px" }}>Bootstrap</figcaption>
             </Col>
@@ -101,6 +131,7 @@ const Home = (props) => {
                 src={props.JavaScript}
                 alt="JavaScript logo"
                 style={{ width: "150px", height: "30px" }}
+                className="icon"
               />
               <figcaption style={{ paddingLeft: "40px" }}>
                 JavaScript
@@ -111,6 +142,7 @@ const Home = (props) => {
                 src={props.react}
                 alt="React logo"
                 style={{ width: "150px", height: "30px" }}
+                className="icon"
               />
               <figcaption style={{ paddingLeft: "40px" }}>React.js</figcaption>
             </Col>
@@ -121,6 +153,7 @@ const Home = (props) => {
                 src={props.sql}
                 alt="SQL logo"
                 style={{ width: "150px", height: "30px" }}
+                className="icon"
               />
               <figcaption style={{ paddingLeft: "40px" }}>SQL</figcaption>
             </Col>
@@ -129,6 +162,7 @@ const Home = (props) => {
                 src={props.git}
                 alt="Git logo"
                 style={{ width: "150px", height: "30px" }}
+                className="icon"
               />
               <figcaption style={{ paddingLeft: "40px" }}>Git</figcaption>
             </Col>
@@ -141,6 +175,7 @@ const Home = (props) => {
                 width: "150px",
                 height: "30px",
               }}
+              className="icon"
             />
             <figcaption>node.js</figcaption>
           </figure>
