@@ -76,6 +76,22 @@ const Home = (props) => {
               Explore Projects
             </Button>
           </Link>
+          <br />
+          <a
+            href="https://AsandahDevs.github.io/Asanda-Majola/Assets/Asanda_Majola_Junior_react_developer.pdf"
+            download
+          >
+            <Button
+              style={{
+                fontFamily: "Roboto",
+                fontSize: "10px",
+                fontWeight: "bold",
+                marginTop: "10px",
+              }}
+            >
+              Download CV
+            </Button>
+          </a>
         </figcaption>
       </figure>
       <Container style={{ paddingTop: "15px" }} fluid>
