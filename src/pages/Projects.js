@@ -9,7 +9,7 @@ const Projects = () => {
         <strong>Projects</strong>
       </h1>
       <Carousel>
-        <Carousel.Item>
+        <Carousel.Item interval={10000}>
           <Cards
             style={{
               width: "300px",
@@ -29,7 +29,7 @@ const Projects = () => {
             codeLink={"https://github.com/AsandahDevs/asandahdevs.github.io"}
           />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={10000}>
           <Cards
             style={{
               width: "300px",
@@ -52,7 +52,7 @@ const Projects = () => {
             codeLink={"https://github.com/AsandahDevs/carBuyingSite.github.io"}
           />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={10000}>
           <Cards
             style={{
               width: "300px",
@@ -73,7 +73,7 @@ const Projects = () => {
             codeLink={"https://github.com/AsandahDevs/newsFetcher.github.io"}
           />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={10000}>
           <Cards
             style={{
               width: "300px",
@@ -96,7 +96,7 @@ const Projects = () => {
             }
           />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={10000}>
           <Cards
             style={{
               width: "300px",
