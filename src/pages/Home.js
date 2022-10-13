@@ -82,6 +82,7 @@ const Home = (props) => {
             download
           >
             <Button
+              variant="dark"
               style={{
                 fontFamily: "Roboto",
                 fontSize: "10px",
