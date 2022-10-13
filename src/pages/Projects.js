@@ -62,7 +62,7 @@ const Projects = () => {
             }}
             height={{ height: "250px" }}
             image={
-              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/founding_fathers.webp"
+              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/founding_fathhers.webp"
             }
             alt={"a preview image"}
             title={"Newsfetcher API Web App"}
