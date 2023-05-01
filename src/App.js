@@ -34,7 +34,7 @@ function App() {
                   "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/nodejs-1.svg"
                 }
                 angular={
-                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/Angular.png"
+                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/Angular.svg"
                 }
                 git={
                   "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/git-logo.svg"
