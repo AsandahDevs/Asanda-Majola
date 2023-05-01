@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/esm/Container";
-import { Envelope } from "react-bootstrap-icons";
-import { Whatsapp } from "react-bootstrap-icons";
-import { Telephone } from "react-bootstrap-icons";
+import { Envelope,Whatsapp, Telephone} from "react-bootstrap-icons";
+
 const Contact = () => {
   return (
     <Container style={{ paddingTop: "15px" }} fluid>
