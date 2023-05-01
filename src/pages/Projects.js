@@ -117,6 +117,27 @@ const Projects = () => {
             codeLink={"https://github.com/AsandahDevs/Amabele/tree/main"}
           />
         </Carousel.Item>
+        <Carousel.Item interval={10000}>
+          <Cards
+            style={{
+              width: "300px",
+              height: "auto",
+              margin: "auto",
+              marginBottom: "3em",
+            }}
+            height={{ height: "250px" }}
+            image={
+              "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/angular-wine-store.webp"
+            }
+            alt={"a preview image"}
+            title={"Jolinkomo's winery"}
+            description={
+              "A PWA e-commerce store built using the angular framework"
+            }
+            projectLink={"https://jolinkomowinery.netlify.app/"}
+            codeLink={"https://github.com/AsandahDevs/wine-store"}
+          />
+        </Carousel.Item>
       </Carousel>
     </Container>
   );
