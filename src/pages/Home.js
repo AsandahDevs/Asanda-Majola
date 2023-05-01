@@ -167,7 +167,7 @@ const Home = (props) => {
               <img
                 src={props.angular}
                 alt="Angular logo"
-                style={{ width: "150px", height: "30px" }}
+                style={{ width: "24px", height: "24px" , marginLeft:"55px"}}
                 className="icon"
               />
               <figcaption style={{ paddingLeft: "40px" }}>Angular</figcaption>
