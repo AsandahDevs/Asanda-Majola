@@ -33,8 +33,8 @@ function App() {
                 nodejs={
                   "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/nodejs-1.svg"
                 }
-                sql={
-                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/SQL.svg"
+                angular={
+                  "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/Angular.svg"
                 }
                 git={
                   "https://AsandahDevs.github.io/Asanda-Majola/Assets/Images/git-logo.svg"
