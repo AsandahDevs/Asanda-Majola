@@ -165,12 +165,12 @@ const Home = (props) => {
           <Row className="justify-content-center g-4 py-3">
             <Col xs={5} md={4}>
               <img
-                src={props.sql}
-                alt="SQL logo"
+                src={props.angular}
+                alt="Angular logo"
                 style={{ width: "150px", height: "30px" }}
                 className="icon"
               />
-              <figcaption style={{ paddingLeft: "40px" }}>SQL</figcaption>
+              <figcaption style={{ paddingLeft: "40px" }}>Angular</figcaption>
             </Col>
             <Col xs={5} md={4}>
               <img
