@@ -76,7 +76,7 @@ const Home = (props) => {
           </Link>
           <br />
           <a
-            href="https://AsandahDevs.github.io/Asanda-Majola/Assets/Asanda_Majola_Junior_react_developer.pdf"
+            href="https://AsandahDevs.github.io/Asanda-Majola/Assets/Asanda_Majola_Front_end_developer_resume.pdf"
             download
           >
             <Button
